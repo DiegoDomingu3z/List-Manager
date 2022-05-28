@@ -25,7 +25,7 @@ _drawList()
 
     createList(){
         window.event.preventDefault()
-        console.log('this bitch is working');
+        console.log('is this working');
         let form = window.event.target
         let  listData = {
 
@@ -39,7 +39,7 @@ _drawList()
 
 
     deleteList(id){
-        console.log('this bitch is working', id);
+        console.log('delete list is working', id);
         listsService.deleteList(id)
     }
 }

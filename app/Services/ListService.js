@@ -8,11 +8,11 @@ import { List } from "../Models/ListModel.js";
 class ListsService{
     createList(listData){
         console.log('lists', listData);
-        ProxyState.lists = [...ProxyState.lists, new List(listData)]
+        ProxyState.lisss = [...ProxyState.lists, new List(listData)]
     }
 
     deleteList(id){
-        console.log('that bitch is deleted');
+        console.log('deleting ');
         ProxyState.lists = ProxyState.lists.filter(l => l.id != id)
     }
 
